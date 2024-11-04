@@ -4,9 +4,9 @@ import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from '@/components/ui/tabs';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
-import { Settings, Code, Database, Terminal, Package, Key, Hash, Calendar, Palette } from 'lucide-react';
+import { Settings, Code, Database, Terminal, Package, Key, Calendar } from 'lucide-react';
 
-const DevToolsDashboard = () => {
+const DevToolsDashboard: React.FC = () => {
   const [input, setInput] = useState('');
   const [output, setOutput] = useState('');
   const [activeConverter, setActiveConverter] = useState('json');

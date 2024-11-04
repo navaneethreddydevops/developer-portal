@@ -1,8 +1,10 @@
-import DevToolsDashboard from '../components/DevToolsDashboard';
+'use client';
 
-export default function Home() {
+import DevToolsDashboard from '@/components/DevToolsDashboard';
+
+export default function ToolsPage() {
   return (
-    <main className="min-h-screen p-4">
+    <main>
       <DevToolsDashboard />
     </main>
   );
