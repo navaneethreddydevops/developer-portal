@@ -1,4 +1,4 @@
-import DevToolsDashboard from './components/DevToolsDashboard';
+import DevToolsDashboard from '../components/DevToolsDashboard';
 
 export default function Home() {
   return (
